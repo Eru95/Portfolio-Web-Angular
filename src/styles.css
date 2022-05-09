@@ -1,0 +1,142 @@
+
+nav#barra-nav{
+    background-color: #00657a;
+}
+
+.botones-superiores{
+    max-width: 300;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+div#foto-perfil{
+    margin-bottom:-110px;
+    position: relative;
+    padding: 10px;
+    bottom: 110px;
+}
+
+div#foto-perfil img{
+    width: 25%;
+    height: auto;
+}
+
+div.mat-card{
+    border-color: #00657a;
+    margin: 0px 10px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: auto;
+    max-height: 400px;
+}
+
+div#botones{
+    position: relative;
+    bottom: -6px;
+    padding: 10px
+}
+
+div#info-perfil{
+    position: relative;
+    left: 20px;
+}
+
+button.btn.btn-primary{
+    position: relative;
+    right: 30px;
+    margin: 0px 30px
+    
+}
+button.btn.btn-secondary{
+    position: relative;
+    left: -36px;
+}
+
+.texto-experiencia{
+    height: 100px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 80px;
+    width: 800px;
+    line-height: 8px;
+    padding-top: 4px;
+ }
+
+ div.educacion img{
+     position: relative;
+     width: 20%;
+     height: auto;
+     top: 10px;
+ }
+
+ div.experiencia-laboral img{
+    position: relative;
+    width: 20%;
+    height: auto;
+    top: 14px;
+ }
+
+
+.experiencia-laboral{
+    width: 300px;
+    padding-top: 15px;
+}
+
+.educacion{
+    width: 300px;
+    padding-top: 15px;
+}
+
+.texto-educacion{
+    height: 100px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 80px;
+    width: 400px;
+    line-height: 8px;
+    padding-top: 20px;
+ }
+
+ .progress{
+     max-width: 800px;
+     margin-left: auto; 
+     margin-right:auto;
+     background: rgb(191, 213, 219);
+ }
+
+ .texto-skills{
+    text-align:center;
+ }
+
+ footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #00657a;
+    height: 150px;
+    width: auto;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+p.nombre-perfil{
+    font-size: 26px;
+}
