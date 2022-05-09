@@ -1,0 +1,14 @@
+svg.boton-edit-about{
+    position: relative;
+    cursor: pointer;
+    left: 99%;
+    top: -40px;
+}
+
+svg.boton-edit-about:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
+
+svg.boton-edit-about:hover {
+background-color: gray;
+}
