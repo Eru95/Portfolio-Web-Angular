@@ -11,5 +11,6 @@ export class DataService {
 
   obtenerDatos():Observable<any>{
     return this.http.get('./assets/Data/dbPrueba.json')
+    //comentario adicional
   }
 }
