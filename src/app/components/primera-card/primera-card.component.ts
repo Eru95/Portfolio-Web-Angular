@@ -8,12 +8,14 @@ import { DataService } from 'src/app/servicios/data.service';
   styleUrls: ['./primera-card.component.css']
 })
 export class PrimeraCardComponent implements OnInit {
+  miPortfolio:any;
 
   constructor(private datosPrueba:DataService) { }
 
   ngOnInit(): void {
   this.datosPrueba.obtenerDatos().subscribe(data =>{
     console.log(data);
+    this.miPortfolio=data;
   });
   }
 
