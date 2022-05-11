@@ -1,0 +1,32 @@
+{
+    "nombre": "Molina Lucas",
+    "profesion": "Profesión",
+    "fotoperfil": "pepe.jpg",
+    "fotoportada": "portada portfolio.jpg",
+    "acercademi": "Texto de prueba",
+
+    "experiencialaboral":[{
+        "empresa": "Gestambo",
+        "cargo": "Soporte Técnico - Jornada Parcial",
+        "tiempo": "Junio 2016 - Septiembre 2021 - 5 años",
+        "fotoempresa": "Gestambo.jpg"
+        },
+        {
+        "empresa": "Infobrandsen",
+        "cargo": "SAdministrador de portal y redes sociales - Jornada Parcial",
+        "tiempo": "Junio 2016 - Septiembre 2021 - 5 años",
+        "fotoempresa": "Infobrandsen.jpg" 
+        }
+
+    ],
+    "educacion":[{
+        "facultad": "UNLP",
+        "titulo": "Analista de sistemas",
+        "egresado": "Egresado 2017"
+    }
+    ],
+    "habilidades":[{
+        "skill": "primer skill",
+        "porcentaje": 25
+    }]
+}

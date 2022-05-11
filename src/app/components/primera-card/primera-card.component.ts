@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/servicios/data.service';
+
 
 @Component({
   selector: 'app-primera-card',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrimeraCardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private datosPrueba:DataService) { }
 
   ngOnInit(): void {
+  this.datosPrueba.obtenerDatos().subscribe(data =>{
+    console.log(data);
+  });
   }
 
 }
